@@ -10,8 +10,6 @@ html {
     font-style: normal;
 }
 
-@layer init, design;
-
 :root {
     --main-bg: hsl(200, 20%, 87%);
     --card-bg: hsl(200, 20%, 97%);
@@ -19,7 +17,6 @@ html {
     --card-font: black;
 }
 
-@layer init {
     .content-wrapper {
         max-width: 1150px;
         margin: 0 auto;
@@ -42,9 +39,7 @@ html {
         margin: .7em 0;
         font-style: normal;
     }
-}
 
-@layer design {
     .icon {
         font-family: 'icomoon';
         font-weight: normal;
@@ -92,4 +87,3 @@ html {
         padding-bottom: 0.5em;
         border-bottom: 1px solid black;
     }
-}
